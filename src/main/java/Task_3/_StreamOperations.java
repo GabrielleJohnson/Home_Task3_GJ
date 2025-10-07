@@ -54,7 +54,7 @@ public class _StreamOperations {
         System.out.println(nameCount);
 
 
-        System.out.println("\nPrinting first name's that starts with the letter L");
+        System.out.println("\nPrinting first names that starts with the letter L");
 
         String namesWithL = memberNames.stream()
                 .filter(nameL -> nameL.contains("L"))
