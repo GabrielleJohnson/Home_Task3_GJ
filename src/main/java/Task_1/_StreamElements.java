@@ -34,7 +34,7 @@ public class _StreamElements {
         System.out.println("\n\nEven numbers");
         List<Integer> evenNum = randNum.stream()
                 .filter(x -> x % 2 == 0)
-                .toList();
+                .collect(Collectors.toList());
         evenNum.forEach(System.out::println);
 
     }
