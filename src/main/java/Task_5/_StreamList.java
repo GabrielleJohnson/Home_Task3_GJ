@@ -20,6 +20,7 @@ public class _StreamList {
                 .toList();
 
         System.out.println("List of letters that only occurs in the Map: " + val);
+        System.out.println("nothing");
 
     }
 }
